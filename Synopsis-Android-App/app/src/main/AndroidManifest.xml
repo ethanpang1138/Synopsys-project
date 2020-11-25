@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+    <manifest android:versionName="1.0" android:versionCode="1" package="com.example.bluetooth1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<application android:theme="@style/AppTheme" android:label="Synopsys Sound Localization" android:icon="@mipmap/ic_launcher_round">
+    <activity android:name="com.example.ethan.receivefromarduino.MainActivity" android:label="title_activity_main">
+    <intent-filter>
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+</application>
+</manifest>
